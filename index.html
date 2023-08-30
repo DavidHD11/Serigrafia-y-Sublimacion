@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+  	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175335217-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-175335217-1');
+</script>
+
+  	
+  	<script>
+  		function registrar(){
+  			alert("Ha sido Registrado");
+  	}
+  	</script>
+
+  	<script language="JavaScript">  var estado=true;  setTimeout("ver()",4000);  function ver (){  estado=!estado;  if(estado==true)  texto1.style.visibility="visible";  else  texto1.style.visibility="hidden";  setTimeout("ver()",4000);  }  </script>
+
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+  	<div class="container">
+    <div class="navbar-header">
+      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>                        
+      	</button>
+      	<a class="navbar-brand" href="#myPage"><img id="logo" src="img/logo2.jpg"  height="90" width="130";></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      	<ul class="nav navbar-nav navbar-right">
+        	<li><a href="#carrusel">Tazas</a></li>
+        	<li><a href="#miVideo">Modelos</a></li>
+        	<!--<li><a href="#aplicaciones">Aplicaciones</a></li>-->
+        	<!--<li><a href="#carrusel2">Playeras</a></li>-->
+      	</ul>
+    </div>
+  	</div>
+	</nav>
+
+	<section id="principal" class="contenedor">
+							<!--Seccion Carrusel de Fotos-->
+		<section id="carrusel">
+			<h2><strong>Tazas</strong></h2>
+			<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    								<!-- Indicadores -->
+    			<ol class="carousel-indicators">
+      				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      				<li data-target="#myCarousel" data-slide-to="1"></li>
+      				<li data-target="#myCarousel" data-slide-to="2"></li>
+      				<li data-target="#myCarousel" data-slide-to="3"></li>
+      				<li data-target="#myCarousel" data-slide-to="4"></li>
+      				
+    			</ol>
+
+				<article class="carousel-inner imagen">
+					<figure class="item active">
+						<img src="img/img1.jpeg" alt="asesoria" width="80%" id="image">
+						<div class="carousel-caption"></div>
+					</figure>
+					<figure class="item">
+						<img src="img/img2.jpeg" alt="asesoria" width="80%" id="image">
+						<div class="carousel-caption"></div>
+					</figure>
+					<figure class="item">
+						<img src="img/img3.jpeg" alt="asesoria" width="80%" id="image">
+						<div class="carousel-caption"></div>
+					</figure>
+					<figure class="item">
+						<img src="img/img4.jpeg" alt="asesoria" width="80%" id="image">
+						<div class="carousel-caption"></div>
+					</figure>
+					<figure class="item">
+						<img src="img/img5.jpeg" alt="asesoria" width="80%" id="image">
+						<div class="carousel-caption"></div>
+					</figure>
+
+				</article>
+
+		 	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      			<span class="sr-only">Previous</span>
+    		</a>
+   	 		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      			<span class="sr-only">Next</span>
+   			 </a>
+			</div>
+		</section>
+			<br>
+							<!--Seccion Video-->
+		<video autoplay muted loop id="miVideo">
+ 			<source src="video/video.mp4" type="video/mp4">
+		</video>	
+		<br><br>
+
+	</section><br>
+
+	<footer>
+		<h2 id="redes"><strong>Redes Sociales</strong></h2>
+		<p id="red"><img src="img/Facebook.png" width="40" height="40"><a id="le" style="text-decoration:none; color:white" href="https://www.facebook.com/Asesorias-Online-103433441442205/?ref=aymt_homepage_panel&eid=ARAoav3TvU3Hrk2KSXjYsJKRWSR_Epn9YmHuCKjRM-ed5zP1dNj8ImvB2n0csM38QR1QWMwLLpMhEtu_">Facebook: Asesorías Online</a></p>
+		<p id="red"><img src="img/Instagram.png" width="40" height="40"><a id="le" style="text-decoration:none; color:white" href="https://www.instagram.com/desingmultisystem/">Instagram: @desingmultisystem</a></p>
+	</footer>
+			
+
+</body>
+</html>
